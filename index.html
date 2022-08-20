@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Yellowstone Website</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-success navbar-dark p-3 fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">Yellowstone National Park</a>
+            <button 
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span></button> 
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#gallery" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Locations" class="nav-link">Locations</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Main section -->
+    <section class="bg-success text-light p-10 p-lg-0 lg-10 text-center text-sm-start">
+    <!-- <section class="bg-success text-light p-10 p-lg-10 pt-lg-20 p-md-0 text-center text-sm-start shadow p-3 mb-5 bg-body"> -->
+        <!-- section is similar to div. just diffirantiate -->
+        <!-- standard padding size is 10, if the screen is large padding:0, padding top in large screen p:10, -->
+        <!-- on a small screen, text starts from the beginning of the container, mb-5: margin of the bottom will be 5, background will be body style   -->
+        <div class="container p-5">
+            <div class="row-md col-sm">
+                <!-- in a medium size of the screen, displaying horizontally -->
+                <div class="d-md-flex bg-success align-items-center justify-content-evenly">
+                    <h1 class="p-5 col-lg-2 col-md-6">The World's First National Park.</h1>
+                    <img src="static/YS_background.webp" alt="Yellowstone_title" class="img-fluid col-lg-8 col-md-6"> 
+                    <!-- img-fluid: automatically resize the img -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Second panel -->
+    <section id="about" class="bg-dark text-light p-10 p-lg-0 lg-10 text-center text-sm-start">
+        <div class="container mt-10 p-5">
+        <!-- margin at the top would be 10, padding would be 5 -->
+            <div class="row-md col-sm">
+                <div class="d-sm-flex align-items-center justify-content-evenly">
+                    <img src="static/YS_tour_schedule.webp" alt="" class="img-fluid shadow-lg col-lg-8 col-md-6">
+                    <h4 class="col-lg-3 col-md-6 pe-sm-5">Home to hundreds of animal species, including bears, wolves, bison, elk and antelope. <br> Nearly 3,500-sq.-mile wilderness recreation area atop a volcanic hot spot.</h4>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Third panel -->
+    <section id="gallery" class="bg-success text-light p-10 p-lg-0 lg-10 text-center text-sm-start shadow-lg">
+        <div class="container p-5">
+            <h2 class="text-center p-5">See the gallery.</h2>
+            <div class="row g-4 p-4">
+                <!--row:displays things horizantally, g-4:each items have some places below it-->
+                <!--Below is how wide things are going to be, how many things-->
+                    <div class="col-sm-12 col-md-6 col-lg-3 row p-4">
+                        <img src="static/gallery_photo/YS_gallery.avif" alt="" class="img-fluid shadow-lg p-0">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 row p-4">
+                        <img src="static/gallery_photo/YS_gal2.avif" alt="" class="img-fluid shadow-lg p-0">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 row p-4">
+                        <img src="static/gallery_photo/YS_gal4.avif" alt="" class="img-fluid shadow-lg p-0">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 row p-4">
+                        <img src="static/gallery_photo/YS_gal5.avif" alt="" class="img-fluid shadow-lg p-0">
+                    </div>
+            </div>
+            <div class="row g-4 p-4">
+                <div class="col-sm-12 col-md-6 col-lg-3 row p-4">
+                    <img src="static/gallery_photo/YS_gal6.avif" alt="" class="img-fluid shadow-lg p-0">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 row p-4">
+                    <img src="static/gallery_photo/YS_gal7.avif" alt="" class="img-fluid shadow-lg p-0">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 row p-4">
+                    <img src="static/gallery_photo/YS_gal3.webp" alt="" class="img-fluid shadow-lg p-0">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 row p-4">
+                    <img src="static/gallery_photo/YS_gal8.webp" alt="" class="img-fluid shadow-lg p-0">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Final Section -->
+    <section id="Locations" class="bg-dark text-light p-10 p-lg-0 lg-10 text-center text-sm-start">
+        <div class="container mt-10 p-5">
+        <!-- margin at the top would be 10, padding would be 5 -->
+            <div class="row-md col-sm">
+                <div class="d-sm-flex align-items-center justify-content-evenly">
+                    <h2 class="col-lg-3 col-md-6 pe-sm-5">Yellowstone National Park is located in the western United States in Idaho, Montana, and Wyoming</h2>
+                    <!-- takes two columns in a large screen/ takes 6 columns in a medium screen-->
+                    <!-- padding at the end on a small screen-->
+                    <img src="static/whereisyellowstone.webp" alt="" class="img-fluid shadow-lg row-col-lg-8 col-md-6">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p class=" text-dark lead text-center mb-0">&copy; 2022 Yoon Hwa Jeong</p>
+        <!-- lead: make it bold -->
+    </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
